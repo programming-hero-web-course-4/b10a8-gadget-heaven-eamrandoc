@@ -1,0 +1,333 @@
+[
+    {
+        "product_id": 1,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://example.com/images/dell_xps_13.jpg",
+        "category": "Laptops",
+        "price": 999.99,
+        "description": "High-performance laptop with a stunning 13-inch display.",
+        "specification": [
+            "Intel i7 Processor",
+            "16GB RAM",
+            "512GB SSD",
+            "13.3-inch FHD Display"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Ultraportable design"
+    },
+    {
+        "product_id": 2,
+        "product_title": "iPhone 14",
+        "product_image": "https://example.com/images/iphone_14.jpg",
+        "category": "Phones",
+        "price": 799.00,
+        "description": "Latest iPhone with advanced features and stunning camera.",
+        "specification": [
+            "A15 Bionic chip",
+            "128GB Storage",
+            "12MP Dual Camera",
+            "Super Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Available in multiple colors"
+    },
+    {
+        "product_id": 3,
+        "product_title": "Apple Watch Series 8",
+        "product_image": "https://example.com/images/apple_watch_series_8.jpg",
+        "category": "Smart Watches",
+        "price": 399.00,
+        "description": "The perfect companion for fitness and health tracking.",
+        "specification": [
+            "Always-On Retina display",
+            "Health monitoring features",
+            "Water resistant"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Compatible with iPhone"
+    },
+    {
+        "product_id": 4,
+        "product_title": "Samsung Galaxy Buds Pro",
+        "product_image": "https://example.com/images/galaxy_buds_pro.jpg",
+        "category": "Accessories",
+        "price": 199.99,
+        "description": "Premium true wireless earbuds with active noise cancellation.",
+        "specification": [
+            "Intelligent Active Noise Cancellation",
+            "IPX7 Water Resistant",
+            "Up to 28 hours of battery life"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "other_field": "Seamless connectivity with Samsung devices"
+    },
+    {
+        "product_id": 5,
+        "product_title": "MacBook Air M2",
+        "product_image": "https://example.com/images/macbook_air_m2.jpg",
+        "category": "Laptops",
+        "price": 1199.00,
+        "description": "Lightweight MacBook with Apple M2 chip for high performance.",
+        "specification": [
+            "Apple M2 chip",
+            "8GB RAM",
+            "256GB SSD",
+            "Retina display"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Exceptional battery life"
+    },
+    {
+        "product_id": 6,
+        "product_title": "Google Pixel 7",
+        "product_image": "https://example.com/images/google_pixel_7.jpg",
+        "category": "Phones",
+        "price": 599.00,
+        "description": "The new Google Pixel with exceptional camera capabilities.",
+        "specification": [
+            "Google Tensor chip",
+            "128GB Storage",
+            "50MP Dual Camera",
+            "6.3-inch display"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Best for photography"
+    },
+    {
+        "product_id": 7,
+        "product_title": "Fitbit Versa 3",
+        "product_image": "https://example.com/images/fitbit_versa_3.jpg",
+        "category": "Smart Watches",
+        "price": 229.95,
+        "description": "Fitness smartwatch with built-in GPS and heart rate monitoring.",
+        "specification": [
+            "Built-in GPS",
+            "24/7 heart rate tracking",
+            "Alexa built-in"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "other_field": "Long battery life"
+    },
+    {
+        "product_id": 8,
+        "product_title": "Anker PowerCore 10000",
+        "product_image": "https://example.com/images/anker_powercore_10000.jpg",
+        "category": "Accessories",
+        "price": 59.99,
+        "description": "Compact portable charger with high capacity.",
+        "specification": [
+            "10,000mAh capacity",
+            "Ultra-lightweight design",
+            "Fast charging technology"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Travel-friendly"
+    },
+    {
+        "product_id": 9,
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://example.com/images/lenovo_thinkpad_x1.jpg",
+        "category": "Laptops",
+        "price": 1349.00,
+        "description": "Durable laptop with excellent performance and keyboard.",
+        "specification": [
+            "Intel i7 Processor",
+            "16GB RAM",
+            "1TB SSD",
+            "14-inch 4K Display"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Military-grade durability"
+    },
+    {
+        "product_id": 10,
+        "product_title": "OnePlus 10 Pro",
+        "product_image": "https://example.com/images/oneplus_10_pro.jpg",
+        "category": "Phones",
+        "price": 899.00,
+        "description": "Flagship phone with stunning display and fast performance.",
+        "specification": [
+            "Snapdragon 8 Gen 1",
+            "256GB Storage",
+            "50MP Triple Camera",
+            "6.7-inch AMOLED Display"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Fast charging capabilities"
+    },
+    {
+        "product_id": 11,
+        "product_title": "Apple AirPods Pro",
+        "product_image": "https://example.com/images/airpods_pro.jpg",
+        "category": "Accessories",
+        "price": 249.99,
+        "description": "Wireless earbuds with active noise cancellation.",
+        "specification": [
+            "Active Noise Cancellation",
+            "Transparency Mode",
+            "Adaptive EQ"
+        ],
+        "availability": true,
+        "rating": 4.9,
+        "other_field": "Seamless integration with Apple devices"
+    },
+    {
+        "product_id": 12,
+        "product_title": "Garmin Forerunner 245",
+        "product_image": "https://example.com/images/garmin_forerunner_245.jpg",
+        "category": "Smart Watches",
+        "price": 349.99,
+        "description": "GPS running watch with advanced performance metrics.",
+        "specification": [
+            "GPS Tracking",
+            "Heart Rate Monitor",
+            "Smart Notifications"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Perfect for athletes"
+    },
+    {
+        "product_id": 13,
+        "product_title": "Asus ROG Zephyrus G14",
+        "product_image": "https://example.com/images/asus_rog_zephyrus_g14.jpg",
+        "category": "Laptops",
+        "price": 1499.00,
+        "description": "Powerful gaming laptop with high refresh rate display.",
+        "specification": [
+            "AMD Ryzen 9 Processor",
+            "32GB RAM",
+            "1TB SSD",
+            "14-inch QHD Display"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Portable gaming powerhouse"
+    },
+    {
+        "product_id": 14,
+        "product_title": "Xiaomi Mi 11",
+        "product_image": "https://example.com/images/xiaomi_mi_11.jpg",
+        "category": "Phones",
+        "price": 749.00,
+        "description": "Smartphone with powerful performance and stunning camera.",
+        "specification": [
+            "Snapdragon 888",
+            "128GB Storage",
+            "108MP Triple Camera",
+            "6.81-inch AMOLED Display"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Impressive night mode photography"
+    },
+    {
+        "product_id": 15,
+        "product_title": "JBL Charge 5",
+        "product_image": "https://example.com/images/jbl_charge_5.jpg",
+        "category": "Accessories",
+        "price": 179.95,
+        "description": "Portable Bluetooth speaker with powerful sound.",
+        "specification": [
+            "20 hours of playtime",
+            "IP67 Waterproof",
+            "Built-in power bank"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Perfect for outdoor activities"
+    },
+    {
+        "product_id": 16,
+        "product_title": "Samsung Galaxy Watch 5",
+        "product_image": "https://example.com/images/samsung_galaxy_watch_5.jpg",
+        "category": "Smart Watches",
+        "price": 279.99,
+        "description": "Smartwatch with advanced health monitoring features.",
+        "specification": [
+            "Body composition analysis",
+            "Sleep tracking",
+            "5ATM water resistant"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "other_field": "Compatible with Android devices"
+    },
+    {
+        "product_id": 17,
+        "product_title": "Acer Swift 3",
+        "product_image": "https://example.com/images/acer_swift_3.jpg",
+        "category": "Laptops",
+        "price": 749.00,
+        "description": "Lightweight laptop for everyday use.",
+        "specification": [
+            "Intel i5 Processor",
+            "8GB RAM",
+            "512GB SSD",
+            "14-inch Full HD Display"
+        ],
+        "availability": true,
+        "rating": 4.4,
+        "other_field": "Great value for money"
+    },
+    {
+        "product_id": 18,
+        "product_title": "Sony WH-1000XM4",
+        "product_image": "https://example.com/images/sony_wh1000xm4.jpg",
+        "category": "Accessories",
+        "price": 349.99,
+        "description": "Wireless noise-canceling headphones with superior sound quality.",
+        "specification": [
+            "30 hours battery life",
+            "Adaptive Sound Control",
+            "Touch Sensor Controls"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "other_field": "Industry-leading noise cancellation"
+    },
+    {
+        "product_id": 19,
+        "product_title": "Razer Blade 15",
+        "product_image": "https://example.com/images/razer_blade_15.jpg",
+        "category": "Laptops",
+        "price": 1999.00,
+        "description": "Premium gaming laptop with a stunning display and performance.",
+        "specification": [
+            "Intel i7 Processor",
+            "16GB RAM",
+            "1TB SSD",
+            "15.6-inch 4K OLED Display"
+        ],
+        "availability": true,
+        "rating": 4.7,
+        "other_field": "Stylish and portable design"
+    },
+    {
+        "product_id": 20,
+        "product_title": "Oppo Find X5",
+        "product_image": "https://example.com/images/oppo_find_x5.jpg",
+        "category": "Phones",
+        "price": 899.00,
+        "description": "Flagship smartphone with cutting-edge technology.",
+        "specification": [
+            "Snapdragon 888",
+            "256GB Storage",
+            "50MP Dual Camera",
+            "6.55-inch AMOLED Display"
+        ],
+        "availability": true,
+        "rating": 4.6,
+        "other_field": "Fast charging technology"
+    }
+]
