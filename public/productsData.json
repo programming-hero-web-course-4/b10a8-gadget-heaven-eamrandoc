@@ -2,7 +2,7 @@
     {
         "product_id": 1,
         "product_title": "Dell XPS 13",
-        "product_image": "https://example.com/images/dell_xps_13.jpg",
+        "product_image": "https://cdn.bdstall.com/product-image/big_214777.jpg",
         "category": "Laptops",
         "price": 999.99,
         "description": "High-performance laptop with a stunning 13-inch display.",
@@ -19,7 +19,7 @@
     {
         "product_id": 2,
         "product_title": "iPhone 14",
-        "product_image": "https://example.com/images/iphone_14.jpg",
+        "product_image": "https://cdn.bdstall.com/product-image/big_225668.jpg",
         "category": "Phones",
         "price": 799.00,
         "description": "Latest iPhone with advanced features and stunning camera.",
@@ -68,7 +68,7 @@
     {
         "product_id": 5,
         "product_title": "MacBook Air M2",
-        "product_image": "https://example.com/images/macbook_air_m2.jpg",
+        "product_image": "https://cdn.bdstall.com/product-image/big_300290.jpg",
         "category": "Laptops",
         "price": 1199.00,
         "description": "Lightweight MacBook with Apple M2 chip for high performance.",
@@ -134,7 +134,7 @@
     {
         "product_id": 9,
         "product_title": "Lenovo ThinkPad X1 Carbon",
-        "product_image": "https://example.com/images/lenovo_thinkpad_x1.jpg",
+        "product_image": "https://cdn.bdstall.com/product-image/big_231460.jpg",
         "category": "Laptops",
         "price": 1349.00,
         "description": "Durable laptop with excellent performance and keyboard.",
