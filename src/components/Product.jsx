@@ -1,35 +1,25 @@
 
-const Product = ({product}) => {
-    const {product_image,product_title, price}=product
+const Product = ({ product }) => {
+    // console.log('aaa',product)
+    const { product_image, product_title, price } = product || {}
     return (
         <div>
-            <img src={product_image} alt="" />
-            <h4>{product_title}</h4>
-            <p>{price}</p>
-            <button>View Details</button>
-            
+            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+                <figure>
+                    <img
+                        src={product_image}
+                        alt="" />
+                </figure>
+                <div className="card-body">
+                    <h2 className="card-title">{product_title}</h2>
+                    <p>{price}</p>
+                    <div className="card-actions">
+                        <button className="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
 
 export default Product;
-
-
-
-// {
-//     "product_id": 1,
-//     "product_title": "Dell XPS 13",
-//     "product_image": "https://example.com/images/dell_xps_13.jpg",
-//     "category": "Laptops",
-//     "price": 999.99,
-//     "description": "High-performance laptop with a stunning 13-inch display.",
-//     "specification": [
-//         "Intel i7 Processor",
-//         "16GB RAM",
-//         "512GB SSD",
-//         "13.3-inch FHD Display"
-//     ],
-//     "availability": true,
-//     "rating": 4.8,
-//     "other_field": "Ultraportable design"
-// }

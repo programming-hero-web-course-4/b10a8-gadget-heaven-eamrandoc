@@ -20,7 +20,7 @@
         "product_id": 2,
         "product_title": "iPhone 14",
         "product_image": "https://cdn.bdstall.com/product-image/big_225668.jpg",
-        "category": "Phones",
+        "category": "iPhone",
         "price": 799.00,
         "description": "Latest iPhone with advanced features and stunning camera.",
         "specification": [
@@ -36,7 +36,7 @@
     {
         "product_id": 3,
         "product_title": "Apple Watch Series 8",
-        "product_image": "https://example.com/images/apple_watch_series_8.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.GmAkY6YQ-E5lcVpXUKDmcgHaIp?w=148&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Smart Watches",
         "price": 399.00,
         "description": "The perfect companion for fitness and health tracking.",
@@ -52,7 +52,7 @@
     {
         "product_id": 4,
         "product_title": "Samsung Galaxy Buds Pro",
-        "product_image": "https://example.com/images/galaxy_buds_pro.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.RIWKjK_Ube-8jYrcI5vTYgHaE8?w=265&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Accessories",
         "price": 199.99,
         "description": "Premium true wireless earbuds with active noise cancellation.",
@@ -85,7 +85,7 @@
     {
         "product_id": 6,
         "product_title": "Google Pixel 7",
-        "product_image": "https://example.com/images/google_pixel_7.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.y_musKyEfXEla64E9n6JngHaFj?w=244&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Phones",
         "price": 599.00,
         "description": "The new Google Pixel with exceptional camera capabilities.",
@@ -102,7 +102,7 @@
     {
         "product_id": 7,
         "product_title": "Fitbit Versa 3",
-        "product_image": "https://example.com/images/fitbit_versa_3.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.hO3M_lb6JnlfCzEfQad01wHaH0?w=178&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Smart Watches",
         "price": 229.95,
         "description": "Fitness smartwatch with built-in GPS and heart rate monitoring.",
@@ -118,7 +118,7 @@
     {
         "product_id": 8,
         "product_title": "Anker PowerCore 10000",
-        "product_image": "https://example.com/images/anker_powercore_10000.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.lIVWi8vjwFiAaPirFr3BgQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Accessories",
         "price": 59.99,
         "description": "Compact portable charger with high capacity.",
@@ -151,7 +151,7 @@
     {
         "product_id": 10,
         "product_title": "OnePlus 10 Pro",
-        "product_image": "https://example.com/images/oneplus_10_pro.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.BRmfo7wVo-keiCv7gUi9qgHaFj?w=252&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Phones",
         "price": 899.00,
         "description": "Flagship phone with stunning display and fast performance.",
@@ -168,7 +168,7 @@
     {
         "product_id": 11,
         "product_title": "Apple AirPods Pro",
-        "product_image": "https://example.com/images/airpods_pro.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.gfZDOTuwetU4V1HBtyUG7QHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Accessories",
         "price": 249.99,
         "description": "Wireless earbuds with active noise cancellation.",
@@ -184,7 +184,7 @@
     {
         "product_id": 12,
         "product_title": "Garmin Forerunner 245",
-        "product_image": "https://example.com/images/garmin_forerunner_245.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.LjOB2D4HAe3-mHkTjUKORAHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Smart Watches",
         "price": 349.99,
         "description": "GPS running watch with advanced performance metrics.",
@@ -200,7 +200,7 @@
     {
         "product_id": 13,
         "product_title": "Asus ROG Zephyrus G14",
-        "product_image": "https://example.com/images/asus_rog_zephyrus_g14.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.Jr_VkH8M_Yv1Foox8KznIgHaE1?w=285&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Laptops",
         "price": 1499.00,
         "description": "Powerful gaming laptop with high refresh rate display.",
@@ -217,7 +217,7 @@
     {
         "product_id": 14,
         "product_title": "Xiaomi Mi 11",
-        "product_image": "https://example.com/images/xiaomi_mi_11.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.JE26VTPKF-E4rYaYjZXOrgHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Phones",
         "price": 749.00,
         "description": "Smartphone with powerful performance and stunning camera.",
@@ -234,7 +234,7 @@
     {
         "product_id": 15,
         "product_title": "JBL Charge 5",
-        "product_image": "https://example.com/images/jbl_charge_5.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.lqFJdizknm1NEGnLRfiWiwHaE8?w=246&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Accessories",
         "price": 179.95,
         "description": "Portable Bluetooth speaker with powerful sound.",
@@ -250,7 +250,7 @@
     {
         "product_id": 16,
         "product_title": "Samsung Galaxy Watch 5",
-        "product_image": "https://example.com/images/samsung_galaxy_watch_5.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.vufmMn0tAVAz9R3xHuu3TgHaEK?w=356&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Smart Watches",
         "price": 279.99,
         "description": "Smartwatch with advanced health monitoring features.",
@@ -266,7 +266,7 @@
     {
         "product_id": 17,
         "product_title": "Acer Swift 3",
-        "product_image": "https://example.com/images/acer_swift_3.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.t-yH-kwx-VGHvJUGx0oN0wHaEi?w=285&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Laptops",
         "price": 749.00,
         "description": "Lightweight laptop for everyday use.",
@@ -283,7 +283,7 @@
     {
         "product_id": 18,
         "product_title": "Sony WH-1000XM4",
-        "product_image": "https://example.com/images/sony_wh1000xm4.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.B4ZpRhAkszS_lq1SDFfA9gHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Accessories",
         "price": 349.99,
         "description": "Wireless noise-canceling headphones with superior sound quality.",
@@ -299,7 +299,7 @@
     {
         "product_id": 19,
         "product_title": "Razer Blade 15",
-        "product_image": "https://example.com/images/razer_blade_15.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.hN0kU2U2RAbDguJyh9TzcAHaFQ?w=257&h=183&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Laptops",
         "price": 1999.00,
         "description": "Premium gaming laptop with a stunning display and performance.",
@@ -316,7 +316,7 @@
     {
         "product_id": 20,
         "product_title": "Oppo Find X5",
-        "product_image": "https://example.com/images/oppo_find_x5.jpg",
+        "product_image": "https://th.bing.com/th/id/OIP.6IceML6pAS95bzL3uCjMlQHaE7?w=290&h=193&c=7&r=0&o=5&dpr=1.3&pid=1.7",
         "category": "Phones",
         "price": 899.00,
         "description": "Flagship smartphone with cutting-edge technology.",
