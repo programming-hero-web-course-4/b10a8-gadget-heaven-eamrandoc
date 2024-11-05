@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 
 const Product = ({ product }) => {
-    // console.log('aaa',product)
-    const { product_image, product_title, price,product_id } = product || {}
+    const { product_image, product_title, price, product_id } = product || {}
     return (
         <div>
-            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <div className="card card-compact w-96 shadow-xl">
                 <figure>
                     <img
+                        className="rounded-xl h-56"
                         src={product_image}
                         alt="" />
                 </figure>
@@ -15,7 +15,7 @@ const Product = ({ product }) => {
                     <h2 className="card-title">{product_title}</h2>
                     <p>{price}</p>
                     <div className="card-actions">
-                       <Link to={`/product/${product_id}`}> <button className="btn btn-primary">View Details</button></Link>
+                        <Link to={`/product/${product_id}`}> <button className="btn rounded-3xl text-bgPrimary hover:bg-bgPrimary hover:text-white">View Details</button></Link>
                     </div>
                 </div>
             </div>

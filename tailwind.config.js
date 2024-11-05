@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        clifford: '#FF0000',
+        bgPrimary: '#9538E2',
+      }
+    },
   },
   plugins: [daisyui,],
 }

@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 
 const Categories = ({ categories }) => {
     return (
-        <div role='tablist' className='tabs tabs-boxed flex flex-col'>
+        <div role='tablist' className='tabs-boxed flex flex-col gap-6 p-6 bg-white border rounded-2xl'>
             {categories.map(category => (
                 <NavLink
                     key={category.category}
                     to={`/category/${category.category}`}
                     role='tab'
                     className={({ isActive }) =>
-                        `tab text-2xl font-thin ${isActive ? 'tab-active' : ''}`
+                        `tab btn text-2xl rounded-3xl hover:bg-bgPrimary hover:text-white ${isActive ? 'bg-bgPrimary' : 'bg-gray-100'}`
                     }
                 >
                     {category.category}

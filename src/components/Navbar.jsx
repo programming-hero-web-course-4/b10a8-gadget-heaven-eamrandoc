@@ -1,16 +1,19 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { BsCart } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
+    const {pathname} =useLocation()
+    console.log(pathname)
     const menu = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/statistics'>Statistics</NavLink></li>
         <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
     </>
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className={ `${pathname !== '/' ? 'bg-white' : 'bg-bgPrimary text-white rounded-t-3xl'}`}>
+           
+            <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -44,13 +47,13 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <button className="btn btn-ghost btn-circle">
-                    <BsCart></BsCart>                        
+                <div className="navbar-end gap-10 pr-5">
+                    <button className="btn btn-ghost btn-circle bg-white">
+                        <BsCart className="text-black text-2xl"></BsCart>
                     </button>
-                    <button className="btn btn-ghost btn-circle">
+                    <button className="btn btn-ghost btn-circle bg-white">
                         <div className="indicator">
-                           <CiHeart></CiHeart>
+                            <CiHeart className="text-black text-2xl"></CiHeart>
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
                     </button>
