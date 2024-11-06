@@ -4,31 +4,40 @@ import { useEffect, useState } from "react";
 
 const Products = () => {
     const { category } = useParams()
+    console.log(category)
     const data = useLoaderData()
     const [products, setProducts] = useState(data)
-    const allProducts = category ? products.filter(product => product.category === category) : data
+    
     useEffect(() => {
+       if(category){
         if (category === 'All-Products') {
-            // const filterCategory = [...data].filter(product => product.category === category)
-            setProducts(data.slice(0, 8))
-        } else {
-            setProducts(allProducts)
+            setProducts(data)          
         }
-    }, [data, allProducts, category])
-    // const products = useLoaderData()
+        else{
+            const allProducts = [...data].filter(product => product.category === category) 
+            setProducts(allProducts) 
+        }
+
+       }
+       else{
+        setProducts(data.slice(0,8))        
+       }
+       
+    }, [data, category]) 
+    // complete
     return (
         <div className="bg-white rounded-2xl">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                 {
-                    products?.map(product => <Product
+                    products.length > 0 ? products.map(product => <Product
                         key={product.product_id}
                         product={product}
-                    ></Product>)
+                    ></Product>) : <h2 className="text-2xl mt-4">Cooming Soon</h2>
                 }
             </div>
             <div className="flex justify-between my-8">
-                <button onClick={() => setProducts(data)} className="btn rounded-3xl px-10 text-bgPrimary hover:bg-bgPrimary hover:text-white">View All</button>
-                <button onClick={() => setProducts(data.slice(0, 8))} className="btn rounded-3xl px-10 text-bgPrimary hover:bg-bgPrimary hover:text-white">Hide</button>
+                {/* <button onClick={() => setProducts(data)} className="btn rounded-3xl px-10 text-bgPrimary hover:bg-bgPrimary hover:text-white">View All</button>
+                <button onClick={() => setProducts(data.slice(0, 8))} className="btn rounded-3xl px-10 text-bgPrimary hover:bg-bgPrimary hover:text-white">Hide</button> */}
             </div>
 
         </div>

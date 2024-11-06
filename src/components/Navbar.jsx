@@ -1,14 +1,14 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { BsCart } from "react-icons/bs";
 import { CiHeart } from "react-icons/ci";
 
 const Navbar = () => {
     const {pathname} =useLocation()
-    console.log(pathname)
     const menu = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/statistics'>Statistics</NavLink></li>
         <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
+        <li><NavLink to='/aboutus'>About Us</NavLink></li>
     </>
     return (
         <div className={ `${pathname !== '/' ? 'bg-white' : 'bg-bgPrimary text-white rounded-t-3xl'}`}>
@@ -38,7 +38,7 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">Gadget Heaven</a>
+                    <Link to='/' className="btn btn-ghost text-xl">Gadget Heaven</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

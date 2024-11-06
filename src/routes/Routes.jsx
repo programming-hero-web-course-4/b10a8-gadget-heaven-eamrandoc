@@ -6,6 +6,9 @@ import Products from '../components/Products';
 import Dashboard from '../pages/Dashboard';
 import Statistics from '../pages/Statistics';
 import ProductDetails from '../pages/ProductDetails';
+import Cart from '../components/Cart';
+import Wishlist from '../components/Wishlist';
+import AboutUs from '../pages/AboutUs';
 
 
 const routes = createBrowserRouter([
@@ -41,48 +44,17 @@ const routes = createBrowserRouter([
         element: <Dashboard></Dashboard>,
       },
       {
+        path: '/aboutus',
+        element: <AboutUs></AboutUs>,   
+      },
+      {
         path: '/statistics',
-        element: <Statistics></Statistics>
-      }
+        element: <Statistics></Statistics>,
+        loader: () => fetch('/productsData.json'),     
+      },
     ],
   },
 ])
 
-// const routes = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: <Layout></Layout>,
-//     errorElement: <ErrorPage></ErrorPage>,
-//     children: [
-//       {
-//         path: '/',
-//         element: <Home></Home>,
-//         loader: async () => {
-//           const categories = await fetch('/categories.json');
-//           const products = await fetch('../productsData.json');
-//           return {
-//             categories: await categories.json(),
-//             products: await products.json(),
-//           };}
-// ,
-
-//       },
-//       {
-//         path: '/',
-//         element: <Products></Products>,
-//         loader: () => fetch('../productsData.json'),
-//       },
-//       {
-//         path: '/statistics',
-//         element: <Statistics></Statistics>
-//       },
-//       {
-//         path: '/dashboard',
-//         element: <Dashboard></Dashboard>
-//       },
-
-//     ]
-//   },
-// ]);
 
 export default routes;

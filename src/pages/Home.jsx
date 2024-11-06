@@ -2,12 +2,16 @@ import { Link, Outlet, useLoaderData } from "react-router-dom";
 import Banner from "../components/Banner";
 import Categories from "../components/Categories";
 import bannerImg from '../assets/banner.jpg'
+import { Helmet } from "react-helmet";
 
 
 const Home = () => {
     const categories = useLoaderData()
     return (
         <div>
+            <Helmet>
+                <title>Home | Gadget Heaven</title>                
+            </Helmet>
             <div className="lg:h-[900px]">
                 <div className="bg-bgPrimary pb-44">
                     <Banner title={'Upgrade Your Tech Accessorize with Gadget Heaven Accessories'}
@@ -15,7 +19,7 @@ const Home = () => {
                     ></Banner>
                     <div className="relative">
                         <div className="flex justify-center">
-                            <Link><button className="btn bg-white text-bgPrimary rounded-3xl px-7 hover:bg-bgPrimary hover:text-white">Shop Now</button></Link>
+                            <Link to='/dashboard'><button className="btn bg-white text-bgPrimary rounded-3xl px-7 hover:bg-bgPrimary hover:text-white">Shop Now</button></Link>
                         </div>
                         <div className="absolute h-96 p-4 bg-gray-50 bg-opacity-10 rounded-3xl top-20 left-1/2 transform -translate-x-1/2 max-w-5xl">
                             <img className="rounded-3xl" src={bannerImg} alt="" />

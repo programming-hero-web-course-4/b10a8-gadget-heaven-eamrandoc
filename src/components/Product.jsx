@@ -4,7 +4,7 @@ const Product = ({ product }) => {
     const { product_image, product_title, price, product_id } = product || {}
     return (
         <div>
-            <div className="card card-compact w-96 shadow-xl">
+            <div className="card card-compact shadow-xl">
                 <figure>
                     <img
                         className="rounded-xl h-56"
@@ -25,5 +25,3 @@ const Product = ({ product }) => {
 
 export default Product;
 
-
-// to={`/coffee/${id}`}

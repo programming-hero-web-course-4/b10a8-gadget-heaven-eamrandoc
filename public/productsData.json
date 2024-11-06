@@ -329,5 +329,22 @@
         "availability": true,
         "rating": 4.6,
         "other_field": "Fast charging technology"
+    },
+    {
+        "product_id": 21,
+        "product_title": "iPhone 14 pro",
+        "product_image": "https://th.bing.com/th/id/OIP.KyrBu1s2mkrqDl3Bdo8QtAHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "category": "iPhone",
+        "price": 859.00,
+        "description": "Latest iPhone with advanced features and stunning camera.",
+        "specification": [
+            "A15 Bionic chip",
+            "128GB Storage",
+            "12MP Dual Camera",
+            "Super Retina XDR display"
+        ],
+        "availability": true,
+        "rating": 2.9,
+        "other_field": "Available in multiple colors"
     }
 ]
